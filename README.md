@@ -3,6 +3,7 @@
 package java.lang.annotation;
 
 public enum ElementType {
+
     TYPE,               /* 类、接口（包括注释类型）或枚举声明  */
 
     FIELD,              /* 字段声明（包括枚举常量）  */
@@ -25,6 +26,7 @@ public enum ElementType {
 package java.lang.annotation;
 
 public enum RetentionPolicy {
+
     SOURCE,            /* Annotation信息仅存在于编译器处理期间，编译器处理完之后就没有该Annotation信息了  */
 
     CLASS,             /* 编译器将Annotation存储于类对应的.class文件中。默认行为  */
