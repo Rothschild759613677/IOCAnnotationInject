@@ -1,6 +1,7 @@
 # IOCAnnotationInject
 
 package java.lang.annotation;
+
 public enum ElementType {
     TYPE,               /* 类、接口（包括注释类型）或枚举声明  */
 
@@ -22,6 +23,7 @@ public enum ElementType {
 
 
 package java.lang.annotation;
+
 public enum RetentionPolicy {
     SOURCE,            /* Annotation信息仅存在于编译器处理期间，编译器处理完之后就没有该Annotation信息了  */
 
